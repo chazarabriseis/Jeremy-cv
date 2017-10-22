@@ -6,13 +6,13 @@ var jeremy = {
 		"email": "jeremy.rhys.barber@gmail.com",
 		"phone": "+49 163 1378833",
 		"website": "",
-		"summary":"",
+		"summary":"I am a chartered Civil engineer with over 12 years’ experience in civil geotechnical engineering. With a background in medium to large infrastructure with experience working on Victorian projects with some project experience throughout Australia.",
 		"location": "Münchnerstr.23, 83624 Otterfing, Germany",
 		"linkedin": "https://www.linkedin.com/in/jeremy-barber-523aa69/"
 	},
 
 	"work": [
-{
+	{
 		"company": "Pollinate Energy",
 		"location": "Lucknow, India",
 		"position": "Guest Program Leader",
@@ -21,56 +21,84 @@ var jeremy = {
 		"endDate": "May 2017",
 		"summary": "Pollinate Energy is a social enterprise with the aim to reduce poverty in urban poor India through the access to solar lights and fans. After volunteering for Pollinate Energy in 2016 I returned this time to help run the professional fellowship program with 12 participants. I was guiding the teams throughout their projects helping the company to further establish their business in Uttar Pradesh. Working in urban poor India was a challenging experience which helped me to further grow as a person.",
 		"highlights": [""]
-	}], 
+	},{
+		"company": "GHD",
+		"location": "Melbourne, Australia",
+		"position": "Grouplead - Geotechnical Team",
+		"website": "http://www.ghd.com/global/",
+		"startDate": "June 2015",
+		"endDate": "January 2017",
+		"summary": "",
+		"highlights": [""]
+	},{
+		"company": "Hyder Consulting",
+		"location": "Melbourne, Australia",
+		"position": "Senior Geotechnical Engineer",
+		"website": "",
+		"startDate": "June 2012",
+		"endDate": "July 2015",
+		"summary": "",
+		"highlights": [""]
+	},{
+		"company": "GHD",
+		"location": "Melbourne, Australia",
+		"position": "Geotechnical Engineer",
+		"website": "http://www.ghd.com/global/",
+		"startDate": "February 2005",
+		"endDate": "June 2012",
+		"summary": "",
+		"highlights": [""]
+	}
+	], 
 
 	"studentPlacement" : [{
-		"company": "Max-Planck Institute for Extraterrestrial Physics",
-		"location": "Munich, Germany",
+		"company": "Darebin City Council",
+		"location": "Melbourne, Australia",
 		"position": "Research Student",
-		"website": "http://www.mpe.mpg.de/2169/en",
-		"startDate": "January 2008",
-		"endDate": "March 2008",
-		"summary": "Testing X-Ray Detectors for the eROSITA project in Dr. Predehl’s group",
+		"website": "",
+		"startDate": "December 2003",
+		"endDate": "January 2004",
+		"summary": "",
 		"highlights": [""]
 	}],
 
 	"education": [{
-		"institution": "University of Melbourne",
+		"institution": "RMIT University",
 		"location": "Melbourne, Australia",
-		"image" : "images/resume/doktorarbeit.png",
-		"area": "Physical Chemistry",
-		"group": "Nanoparticle Group",
-		"supervisor": "Prof. Mulvaney",
-		"website": "http://www.nanoparticle.com/",
-		"studyType": "PhD",
-		"thesisTitle": "The effects of External Fields on the Optical Properties of Nanocrystals",
-		"description": "Excitonics and plasmonics are exciting fields in  nano science due to the outstanding optical properties evolving in the nanometer scale of semiconductor and metal materials. This makes nanocrystals promising candidates for applications like for example LEDs, solar cells and bio labels, however their optical properties are not fully understood yet. In my thesis I focused on CdSe/CdS/ZnS and gold nanocrystals. In order to further understand their optical properties I constructed a widefield microscope where I was able to apply different atmospheres to the samples, showing there is a strong correlation between the atmosphere and the optical behaviour of nanocrystals. This was confirmed and further studied using a confocal microscope allowing single nanocrystal exciton lifetime measurements. Furthermore, I developed techniques to overlap widefield/darkfield images with atomic force microscope images and scanning electron images to gain insights in the structural dependence on the optical properties.  I also developed devices with which I was able to apply electric fields to single nanocrystals and ensembles in order to study charging effects on nanocrystals.",
-		"startDate": "June 2009",
-		"endDate": "February 2013",
+		"image" : "",
+		"area": "Civil engineer",
+		"group": "",
+		"supervisor": "",
+		"website": "https://www.rmit.edu.au/study-with-us/engineering/civil-engineering",
+		"studyType": "Bachelor",
+		"thesisTitle": "",
+		"description": "",
+		"startDate": "July 2009",
+		"endDate": "February 2004",
 		"courses": [""]
 	}, {
-		"institution": "Gymnasium Oberhaching",
-		"location": "Oberhaching, Germany",
+		"institution": "Highschool Macleod",
+		"location": "Melbourne, Australia",
 		"image" : "",
 		"area": "",
-		"website": "http://www.gymnasium-oberhaching.de/",
+		"website": "https://www.macleod.vic.edu.au",
 		"group": "",
 		"supervisor": "",
 		"studyType": "Coursework",
-		"startDate": "1997",
-		"endDate": "2009",
+		"startDate": "1993",
+		"endDate": "2002",
 		"courses": [""]
 	},{
-		"institution": "Grundschule Otterfing",
-		"location": "Otterfing, Germany",
+		"institution": "Primary school Gowrie",
+		"location": "Canberra, Australia",
 		"image" : "",
 		"area": "",
-		"website": "http://www.schule-otterfing.de/",
+		"website": "http://www.gowrieps.act.edu.au",
 		"group": "",
 		"supervisor": "",
 		"studyType": "Coursework",
-		"startDate": "1990",
-		"endDate": "1996",
+		"startDate": "1989",
+		"endDate": "1993",
 		"courses": [""]
 	}],
 
@@ -89,18 +117,8 @@ var jeremy = {
 		"year": "2007",
 		"website": "http://scitation.aip.org/content/aip/journal/apl/91/9/10.1063/1.2776865",
 		"summary": "The authors investigate the temperature dependence of exciton transfer from a single InGaN quantum well(QW) donor to colloidal CdS nanocrystal quantum dot acceptors and obtain an optimum transfer efficiency of 65% at 60K. Time and spectrally resolved measurements reveal that the transfer efficiency is dominated by the interplay between exciton localization and nonradiative recombination intrinsic to the QW.",
-		"image": "images/publication/ET.jpg",
+		"image": "",
 		"comment": ""
-	}, {
-		"title": "Spatio-temporal dynamics of coupled electrons and holes in nanosize CdSe-CdS semiconductor tetrapods",
-		"authors": ["C. Mauser", "E. Da Como", "J. Baldauf", "A. L. Rogach", "J. Huang", "D. V. Talapin", "J. Feldmann "],
-		"journal": "Physical Review B",
-		"volume": "82",
-		"year": "2010",
-		"website": "http://journals.aps.org/prb/abstract/10.1103/PhysRevB.82.081306",
-		"summary": "We report on coupled electron-hole transfer, Coulomb drag, in CdSe/CdS semiconductor nanotetrapods. We demonstrate that photoexcited holes can either be transferred to the CdSe core or become trapped in one of the CdS arms. By combining time-resolved pump-probe and photoluminescence measurements we investigate how the Coulomb potential drags the electron to the hole localization site. As supported by effective-mass calculations taking into account Coulomb effects we conclude that the hole dynamics determines the fate of the electron in a coupled dynamics.",
-		"image": "images/publication/TP.png",
-		"comment": "Selected for the Virtual Journal of Nanoscale Science and Technology 22 (2010) and the Virtual Journal of Ultrafast Science 9 (2010)"
 	}],
 
 	"volunteer": [{
@@ -182,7 +200,7 @@ var jeremy = {
 				]
 			}]
 	}, {
-		"ExperimentalSkills": 
+		"BusinessAcumen": 
 			[{
 				"name": "Characterisation",
 				"level": "Master",
@@ -262,15 +280,15 @@ if(jeremy.skills.length != 0) {
 				}
 			};
 		};
-		if (keyname == "ExperimentalSkills") {
+		if (keyname == "BusinessAcumen") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
 			$('#skill_exp').append(asign(formattedImage,jeremy.skillImages[key].image));
 			$('#skill_exp').append(asign(HTMLskills,keyname));
 			//$('#ExpSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
-			for (skill in jeremy.skills[key].ExperimentalSkills) {
-				$("#ExpSkillText").append(asign(HTMLskillModaltext,jeremy.skills[key].ExperimentalSkills[skill].name));
-				for (item in jeremy.skills[key].ExperimentalSkills[skill].keywords) {
-					$("#ExpSkillText").append(asign(HTMLskillModalitem,jeremy.skills[key].ExperimentalSkills[skill].keywords[item]));
+			for (skill in jeremy.skills[key].BusinessAcumen) {
+				$("#ExpSkillText").append(asign(HTMLskillModaltext,jeremy.skills[key].BusinessAcumen[skill].name));
+				for (item in jeremy.skills[key].BusinessAcumen[skill].keywords) {
+					$("#ExpSkillText").append(asign(HTMLskillModalitem,jeremy.skills[key].BusinessAcumen[skill].keywords[item]));
 				};
 			};
 		};
@@ -335,7 +353,7 @@ displayVolunteerWork(jeremy.volunteer);
 
 function displayMember(members) {
 for (job in members) {
-	$('#members').append(HTMLmemberStart);
+	$('#technicalSociety').append(HTMLmemberStart);
 	var formattedEmp = HTMLmemberEmployer.replace("%data%",jeremy.members[job].organization);
 	var formattedEmphref = formattedEmp.replace("%href%",jeremy.members[job].website);
 	var formattedTitle = HTMLmemberTitle.replace("%data%",jeremy.members[job].position);
@@ -391,7 +409,6 @@ function displayPublications(publications) {
 }
 displayPublications(jeremy.publications)
 //combine journal and year in one row and get image and text in a nested colum
-
 
 
 function displayCourses(courses) {
