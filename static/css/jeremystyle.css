@@ -145,8 +145,8 @@ body {
   color: #241A11;
 }
 
-.transfskill-background {
-    background-image: url("/images/resume/transfskill.jpg");
+.techskill-background {
+    background-image: url("/images/resume/techskill.jpg");
     color: #301934;
 }
 
@@ -156,8 +156,8 @@ body {
 }
 
 
-.expskill-background {
-    background-image: url("/images/resume/expskill.jpg");
+.busaskill-background {
+    background-image: url("/images/resume/busaskill.jpg");
     color: #FFF;
 }
 

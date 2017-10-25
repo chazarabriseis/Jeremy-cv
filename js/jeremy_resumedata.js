@@ -2,11 +2,11 @@ var jeremy = {
 	"basics": {
 		"name": "Jeremy Rhys Barber",
 		"label": "Senior Geotechnical Engineer - Chartered Engineer",
-		"picture": "/images/resume/jeremy.png",
+		"picture": "/images/resume/jeremy.jpg",
 		"email": "jeremy.rhys.barber@gmail.com",
 		"phone": "+49 163 1378833",
 		"website": "",
-		"summary":"I am a chartered Civil engineer with over 12 years’ experience in civil geotechnical engineering. With a background in medium to large infrastructure with experience working on Victorian projects with some project experience throughout Australia.",
+		"summary":"I am a qualified Civil engineer with over 12 years’ experience in geotechnical and tunnel engineering, project management and team leadership.  I am a chartered engineer with Engineers Australia  (CPEng). My main technical background is medium to large infrastructure within Victoria, Australia, as well as some project experience interstate and internationally. I have worked as a geotechnical engineer on a range of infrastructure projects including roads, rail, energy infrastructure, pipelines, tunnels, marine and wharfs, mining, dams and property. His technical experience includes site investigation, slope stability analysis, earth retaining structures, and foundation engineering including settlement analysis, ground improvement, dynamic loading and pile foundations. I also have extensive experience in geotechnical construction phase support including verification and certification, mitigation measures, instrumentation and monitoring and site surveillance.",
 		"location": "Münchnerstr.23, 83624 Otterfing, Germany",
 		"linkedin": "https://www.linkedin.com/in/jeremy-barber-523aa69/"
 	},
@@ -19,8 +19,8 @@ var jeremy = {
 		"website": "https://pollinateenergy.org/our-programs",
 		"startDate": "April 2017",
 		"endDate": "May 2017",
-		"summary": "Pollinate Energy is a social enterprise with the aim to reduce poverty in urban poor India through the access to solar lights and fans. After volunteering for Pollinate Energy in 2016 I returned this time to help run the professional fellowship program with 12 participants. I was guiding the teams throughout their projects helping the company to further establish their business in Uttar Pradesh. Working in urban poor India was a challenging experience which helped me to further grow as a person.",
-		"highlights": [""]
+		"summary": "Pollinate Energy’s Professionals Fellowship is an innovative program, where participants work on strategic and meaningful projects in real time in one of their Indian city offices. In April 2017 in Lucknow, India I joined the city founde to lead the program lead of a high-performing team of 12 other global professionals from various industries. It was a hands-on capacity building role, with the opportunity to solve Pollinate Energy’s biggest business problems whilst providing much needed support for their in-country operations.",
+		"highlights": []
 	},{
 		"company": "GHD",
 		"location": "Melbourne, Australia",
@@ -28,17 +28,17 @@ var jeremy = {
 		"website": "http://www.ghd.com/global/",
 		"startDate": "June 2015",
 		"endDate": "January 2017",
-		"summary": "",
-		"highlights": [""]
+		"summary": "I managed GHD's geotechnics business within Victoria, Australia including a team of 15 geotechnical engineers, engineering geologists and geophysicists. Key responsibilities included managing workload and resources, business development, bidding and winning work, contract management and team member's performance management.",
+		"highlights": []
 	},{
-		"company": "Hyder Consulting",
+		"company": "Hyder Consulting - Arcadis",
 		"location": "Melbourne, Australia",
 		"position": "Senior Geotechnical Engineer",
-		"website": "",
+		"website": "https://www.arcadis.com/en/australia/",
 		"startDate": "June 2012",
 		"endDate": "July 2015",
-		"summary": "",
-		"highlights": [""]
+		"summary": "My role at Hyder involved providing civil geotechnical design solutions across the transport, property and resources sectors for both internal and external clients. ",
+		"highlights": []
 	},{
 		"company": "GHD",
 		"location": "Melbourne, Australia",
@@ -46,16 +46,103 @@ var jeremy = {
 		"website": "http://www.ghd.com/global/",
 		"startDate": "February 2005",
 		"endDate": "June 2012",
-		"summary": "",
-		"highlights": [""]
+		"summary": "During 7 years with GHD I worked as geotechnical engineer including leading the Geotechnical team in GHD’s Geelong office for a period.",
+		"highlights": []
 	}
 	], 
+
+	"workHighlights" : [{
+		"location": "Melbourne, Australia",
+		"position": "Authority Technical Advisor & Geotechnical Discipline Lead",
+		"project": "Level Crossing Removal Project",
+		"date": "",
+		"summary": "I managed a large geotechnical design and investigation for reference development for proposed level crossing removals, the Mernda rail extension and the Hurstbridge rail tunnel duplication."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Geotechnical advisor",
+		"project": "Next Generation Regional Trains",
+		"date": "",
+		"summary": "High-level technical advice during concept development for proposed major upgrades to the train network in regional Victoria, including line duplication and stabling yards."
+	},{
+		"location": "Abu dhabi, United Emirates",
+		"position": "Senior Geotechnical Engineer",
+		"project": "Abu Dhabi Sewer Upgrade project",
+		"date": "",
+		"summary": "High-level geotechnical advice for deep shaft design and ground water management."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Senior Geotechnical Engineer",
+		"project": "Regional Rail Link Project - Package E (Deer Park to West Werribee Junction)",
+		"date": "",
+		"summary": "More than 2years involvement during design and construction phase of the project. Geotechnical aspects included slope stability, bearing capacity assessment and settlement analysis for retaining walls bridge abutments, pile foundations, earth embankments and station buildings. The role also included extensive construction phase support."
+	},{
+		"location": "Darwin, Australia",
+		"position": "Senior Geotechnical Engineer",
+		"project": "Ichthys LNG Project",
+		"date": "",
+		"summary": "Independent verifier for offshore works for a major new LNG port facility."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Senior Geotechnical Engineer & Project Manager",
+		"project": "Morwell River Rail Bridge Project",
+		"date": "",
+		"summary": "Concept design, detailed design and construction phase support for replacement of existing culverts with a relieving structure for a rail over river crossing."
+	},{
+		"location": "Sydney, Australia",
+		"position": "Independent Reviewer",
+		"project": "North West Rail Link Project",
+		"date": "",
+		"summary": "Independent review of station box temporary support."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Subconsultant Interface Manager",
+		"project": "East West Tunnel Project",
+		"date": "",
+		"summary": "Tender design and detailed design (the project was cancelled during detailed design phase)."
+	},
+	{
+		"location": "Yea, Victoria, Australia",
+		"position": "Geosciences Teamlead",
+		"project": "Sugarloaf Pipeline Project",
+		"date": "",
+		"summary": "Providing geotechnical services for the Sugarloaf Pipeline project throughout concept design, detailed design and construction phase including coordination of the geotechnical, hydrogeology and contaminated land teams. By facilitating timely delivery of technical advice throughout the project construction phases the team lead by me was able to support delivery of the project several months ahead of schedule."
+	},{
+		"location": "Doha, Qatar",
+		"position": "Senior Geotechnical Engineer",
+		"project": "Orbital Truck Ring Road Project",
+		"date": "",
+		"summary": "High-level geotechnical advice for difficult birdge foundation conditions."
+	},{
+		"location": "Adelaide, South, Australia",
+		"position": "Senior Geotechnical Engineer",
+		"project": "Urban South Road Superway Project",
+		"date": "",
+		"summary": "I worked as a senior geotechnical engineer completing design works. The role also included a period of secondment to the Construction Joint Venture to help facilitate the development of the proposed piling methodology. I also provided assistance with review and development of temporary works, including cost optimisation and developing strategies for acid sulphate soil management with respect to permanent works durability."
+	},{
+		"location": "New Castle, UK",
+		"position": "SeniorGeotechnical Engineer",
+		"project": "A1 Highway Duplication Project",
+		"date": "",
+		"summary": "Geotechnical engineering support to Hyder UK office."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Geotechnical Engineer",
+		"project": "Melbourne Main Sewer Replacement Project",
+		"date": "",
+		"summary": "Detailed geotechnical investigation and design. Personal responsibilities included undertaking a ground movement assessment and development of a monitoring plan."
+	},{
+		"location": "Melbourne, Australia",
+		"position": "Geotechnical Engineer",
+		"project": "North Yarra Main Sewer Tunnel Project",
+		"date": "",
+		"summary": "Detailed design for a new sewer tunnel and shafts in inner north-east Melbourne."
+	}],
 
 	"studentPlacement" : [{
 		"company": "Darebin City Council",
 		"location": "Melbourne, Australia",
 		"position": "Research Student",
-		"website": "",
+		"website": "http://www.darebin.vic.gov.au",
 		"startDate": "December 2003",
 		"endDate": "January 2004",
 		"summary": "",
@@ -70,11 +157,11 @@ var jeremy = {
 		"group": "",
 		"supervisor": "",
 		"website": "https://www.rmit.edu.au/study-with-us/engineering/civil-engineering",
-		"studyType": "Bachelor",
+		"studyType": "- Bachelor in",
 		"thesisTitle": "",
 		"description": "",
-		"startDate": "July 2009",
-		"endDate": "February 2004",
+		"startDate": "March 2001",
+		"endDate": "December 2004",
 		"courses": [""]
 	}, {
 		"institution": "Highschool Macleod",
@@ -84,140 +171,154 @@ var jeremy = {
 		"website": "https://www.macleod.vic.edu.au",
 		"group": "",
 		"supervisor": "",
-		"studyType": "Coursework",
-		"startDate": "1993",
-		"endDate": "2002",
+		"studyType": "",
+		"startDate": "1995",
+		"endDate": "2000",
 		"courses": [""]
 	},{
-		"institution": "Primary school Gowrie",
+		"institution": "Primary School Gowrie",
 		"location": "Canberra, Australia",
 		"image" : "",
 		"area": "",
 		"website": "http://www.gowrieps.act.edu.au",
 		"group": "",
 		"supervisor": "",
-		"studyType": "Coursework",
-		"startDate": "1989",
-		"endDate": "1993",
+		"studyType": " ",
+		"startDate": "1988",
+		"endDate": "1994",
 		"courses": [""]
 	}],
 
 	"courses": [{
-		"date": "August 2016",
-		"website":"https://www.udacity.com/course/javascript-basics--ud804",
-		"school":"Udacity",
-		"name": "JavaScript Basics"
+		"date": "6 days during 2009",
+		"website":"",
+		"school":"JMW Consultant",
+		"name": "Leader as a coach"
+	},{
+		"date": "14-16 February 2011",
+		"website":"",
+		"school":"Plaxis Software",
+		"name": "Plaxis Technical Training"
+	},{
+		"date": "1 October2014",
+		"website":"",
+		"school":"Open Universities Australia (in association with Skillsoft, Hyder Consulting, PMBOK)",
+		"name": "Project Management for P2/P3 Project Managers"
+	},{
+		"date": "6 days during July to September 2015",
+		"website":"",
+		"school":"GHD Internal Program",
+		"name": "Growing Leadership Program"
+	},{
+		"date": "19 and 20 October 2015",
+		"website":"",
+		"school":"Victoria Employers Chamber of Commerce and Industry (VECCI)",
+		"name": "The Effective Manager"
 	}],
 
 	"publications": [{
-		"title": "Temperature Dependence of Exciton Transfer in Hybrid  Quantum Well/Nanocrystal Heterostructures",
-		"authors": ["S. Rohrmoser", "J. Baldauf", "S. Sapra", "A. Eychmüller", "I. M. Watson", "R. T. Harley", "P. G. Lagoudakis"],
-		"journal": "Applied Physics Letters",
-		"volume": "91",
-		"year": "2007",
-		"website": "http://scitation.aip.org/content/aip/journal/apl/91/9/10.1063/1.2776865",
-		"summary": "The authors investigate the temperature dependence of exciton transfer from a single InGaN quantum well(QW) donor to colloidal CdS nanocrystal quantum dot acceptors and obtain an optimum transfer efficiency of 65% at 60K. Time and spectrally resolved measurements reveal that the transfer efficiency is dominated by the interplay between exciton localization and nonradiative recombination intrinsic to the QW.",
+		"title": "Landslide Risk Management and Ground Charaterisation on the Sugarloaf Pipeline Project",
+		"authors": ["J. Barber", "O. Stahlhut"],
+		"journal": "Australian Geomechanics Society",
+		"volume": "45.1",
+		"year": "2010",
+		"website": "https://australiangeomechanics.org/journal/",
+		"summary": "",
+		"image": "",
+		"comment": ""
+	},{
+		"title": "Sugarloaf Pipeline Project Risk Management and Planning Approvals",
+		"authors": ["J. Barber"],
+		"journal": "Australian Geomechanics Society",
+		"volume": "46.2",
+		"year": "2011",
+		"website": "https://australiangeomechanics.org/journal/",
+		"summary": "",
+		"image": "",
+		"comment": ""
+	},{
+		"title": "Goulburn River Pump Station Geotechnics (Design of Deep Wet Well Adjacent the Goulburn River, Victoria Australia)",
+		"authors": ["J. Barber", "T. O'Shannessy"],
+		"journal": "Australia and New Zealand Geotechnical conference",
+		"volume": "",
+		"year": "2012",
+		"website": "https://australiangeomechanics.org/shop/",
+		"summary": "",
+		"image": "",
+		"comment": ""
+	},{
+		"title": "The World's Most Liveable City and Future Geotechnical Engineering Challenges",
+		"authors": ["J. Barber"],
+		"journal": "Australia and New Zealand Geotechnnical conference",
+		"volume": "AGS Outgoings Chair's Address",
+		"year": "2015",
+		"website": "https://australiangeomechanics.org/agm-chairs-address-annual-dinner-and-guest-speaker/",
+		"summary": "",
 		"image": "",
 		"comment": ""
 	}],
 
 	"volunteer": [{
-			"startDate": "October 2016",
-			"organization": "Pollinate Energy",
-			"website": "https://pollinateenergy.org/our-programs/pf/",
-			"summary": "",
-			"location": "Lucknow, India",
-			"position": "Professional Fellowship"
+			"startDate": "2007 and 2008",
+			"organization": "Lynall Hall Breakfast Program",
+			"website": "http://www.lynallhall.vic.edu.au",
+			"summary": "Providing Breakfast before the school day for underprivilege teenagers at Lionel Hall",
+			"location": "Secondary School in Richmond, Victoria, Australia",
+			"position": "Volunteer"
 		}
 	],
 
 	"members":[ {
-			"startDate": "April 2011 - April 2012",
-			"organization": "Chemistry Postgraduate Society",
-			"website": "http://chemistry.unimelb.edu.au/engage/chemistry-postgraduate-society-cps",
-			"summary": "",
-			"location": "",
-			"position": "President"
+			"organization": "Australian Geomechanics Society",
+			"website": "https://australiangeomechanics.org",
+			"position": ["2011 to 2016 - Victoria Chapter Committee Member ",
+			"2011 and 2012 - Committee Secretary ",
+			"2012 - National Representative ",
+			"2013 -Deputy Chair ", 
+			"2014 and 2015 - Committee Chair ",
+			"2016 - Immediate Past Chair"]
+		},{
+			"organization": "Engineers Australia",
+			"website": "https://www.engineersaustralia.org.au",
+			"position": ["August 2009 to May 2017 - Member ",
+			"since April 2017 - Chartered Engineer "]
 		}
 	],
 
-	"skillImages": [{
-				"image": "/images/resume/compskill.jpg"
-			},{
-				"image": "/images/resume/expskill.jpg"
-			},{
-				"image": "/images/resume/transfskill.jpg"
-			}],
-
 	"skills": [{
-		"ComputationalSkills":
-			[{
-				"name": "Web Development",
-				"level": "Intermediate",
-				"keywords": [
-					"HTML",
-					"CSS",
-					"Javascript",
-					"GoogleAppEngine"
-				]
-			}, {
-				"name": "Programming",
-				"level": "Masters",
-				"keywords": [
-					"Python",
-					"C++",
-					"Bash"
-				]
-			}, {
-				"name": "Machine Learning",
-				"level": "Intermediate",
-				"keywords": [
-					"Tensorflow",
-					"R"
-				]
-			}, {
-				"name": "Computational Physics",
-				"level": "Intermediate",
-				"keywords": [
-					"Lammps",
-					"Colvars",
-					"VMD",
-					"OpenFoam"
-				]
-			}, {
-				"name": "Software",
-				"level": "Master",
-				"keywords": [
-					"Igor", "Latex", "Labview", "Open Office Programs", "Lotus Notes", "Adobe Illustrator", "GitHub"
-				]
-			}, {
-				"name": "Operating Systems",
-				"level": "Master",
-				"keywords": [
-					"Linux",
-					"Mac",
-					"Windows"
-				]
-			}]
+		"BusinessAcumen":
+			["Management", 
+			"Program Management", 
+			"Team Leadership and Management", 
+			"Contract Management", 
+			"Scope Management", 
+			"Business Development", 
+			"Client Engagement", 
+			"Cost Control", 
+			"Mentoring and Coaching",
+			"Certificate from Open Universities Australia as Project Manager"]
 	}, {
-		"BusinessAcumen": 
-			[{
-				"name": "Characterisation",
-				"level": "Master",
-				"keywords": [
-					"Scanning Electron Microscopy", "Atomic Force Microscopy", " Zeta-Potential Analyzer", " I-V/FET Measurements", " Absorption/Fluorescent Spectroscopy", " Lifetime Measurements (Streak Camera, TCSPC, Pump-Probe, Flashphotolysis)", " Widefield Spectroscopy", " Confocal & Darkfield Single Particle Spectroscopy"
-				]
-			}, {
-				"name": "Synthesis & Device Preparation",
-				"level": "Master",
-				"keywords": [
-					"Focuesd Ion Beam Etching", " Metal and Semiconductor Nanocrystal Synthesis, Sol-gel Processing", " Thermal Evaporation", " Sputter Coater", " Photo-lithography", " Clean Room Procedures", "Glovebox/Schlenkline Procedures", "Cryostat Procedures"
-				]
-			}]
+		"TechSkills": 
+			["Foundation Design" , 
+			"Deep Foundations", 
+			"Underground Geotechnics" , 
+			"Tunnel Engineering", 
+			"Construction Phase Support", 
+			"Geotechnical investigations and interpretations", 
+			"Numerical Modelling", 
+			"Landslide Risk Assessment and Remediation"]	
 	}, {
-		"TransferableSkills":
-			["Establishing and managing collaborative research projects with an aim to build synergies", "Excellent communication skills (thesis, scientific journals and presentations)", "Hands-on experience in teaching, demonstrating to others, mentoring and public speaking", "Managing multiple tasks concurrently", "Working independently or within a team, including interdisciplinary collaborations", "Fast learning and aptitude", "Ability to develop excellent working relationships with a diverse range of people", "Passion for ongoing learning and a strong belief in always applying myself to my personal best", "Self-motivated with enthusiasm and energy to achieve career goals", "Logical, dynamic, entrepreneurial thinker with strong analytical and research skills", "Excellent problem solving skills due to a holistic and provident thinking approach", "Managing projects according to time, budget and performance", "Optimistic attitude towards life in general", "Taking initiative in creating a social atmosphere at work  ", "Vital part in the Beach volleyball community thanks to social and team skills"
-			]
+		"CompSkills":
+			["Office",
+			"Microsoft Project", 
+			"Access",  
+			"WebEx", 
+			"Projectwise", 
+			"Acconex", 
+			"SharePoint", 
+			"Plaxis",
+			"Geostudio", 
+			"Phases"]
 	}],
 
 	"languages": [{
@@ -231,27 +332,11 @@ var jeremy = {
 	"interests": [
 			"Rock climbing",
 			"Mountaineering",
-			"Beachvolleyball",
-			"Gardening",
+			"Triathlon",
 			"Yoga",
-			"Traveling",
 			"Sustainable Living",
-			"Reading"
-		],
-
-	"references": [{
-		"name": "Prof. Paul Mulvaney",
-		"position": "Group Leader - Nanoparticle Group University of Melbourne",
-		"email": "mulvaney@unimelb.edu.au",
-		"reference": ""
-	}],
-
-	"careerhighlight": [{
-		"name": "",
-		"location": "",
-		"date": "",
-		"summary": "",
-	}]
+			"Reading (Philosophy)"
+		]
 }
 
 
@@ -268,37 +353,30 @@ $('#header').append(asign(HTMLwelcomeMsg, jeremy.basics.summary));
 if(jeremy.skills.length != 0) {
 	Object.keys(jeremy.skills).forEach(function(key, keyIndex) {
 		var keyname = Object.keys(jeremy.skills[key]);
-		if (keyname == "ComputationalSkills") {
+		if (keyname == "CompSkills") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_comp').append(asign(formattedImage,jeremy.skillImages[key].image));
-			$('#skill_comp').append(asign(HTMLskills,keyname));
-			//$('#CompSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
-			for (skill in jeremy.skills[key].ComputationalSkills) {
-				$("#CompSkillText").append(asign(HTMLskillModaltext,jeremy.skills[key].ComputationalSkills[skill].name));
-				for (item in jeremy.skills[key].ComputationalSkills[skill].keywords) {
-					$("#CompSkillText").append(asign(HTMLskillModalitem,jeremy.skills[key].ComputationalSkills[skill].keywords[item]));
-				}
+			$('#skill_comp').append(asign(formattedImage,'/images/resume/compskill.jpg'));
+			$('#skill_comp').append(asign(HTMLskills,'Software'));
+			for (skill in jeremy.skills[key].CompSkills) {
+				$("#CompSkillsText").append(asign(HTMLskillModaltext,jeremy.skills[key].CompSkills[skill]));
 			};
 		};
 		if (keyname == "BusinessAcumen") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_exp').append(asign(formattedImage,jeremy.skillImages[key].image));
+			$('#skill_exp').append(asign(formattedImage,'images/resume/busaskill.jpg'));
 			$('#skill_exp').append(asign(HTMLskills,keyname));
 			//$('#ExpSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
 			for (skill in jeremy.skills[key].BusinessAcumen) {
-				$("#ExpSkillText").append(asign(HTMLskillModaltext,jeremy.skills[key].BusinessAcumen[skill].name));
-				for (item in jeremy.skills[key].BusinessAcumen[skill].keywords) {
-					$("#ExpSkillText").append(asign(HTMLskillModalitem,jeremy.skills[key].BusinessAcumen[skill].keywords[item]));
-				};
+				$("#BusinessAcumenText").append(asign(HTMLskillModaltext,jeremy.skills[key].BusinessAcumen[skill]));
 			};
 		};
-		if (keyname == "TransferableSkills") {
+		if (keyname == "TechSkills") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_tra').append(asign(formattedImage,jeremy.skillImages[key].image));
+			$('#skill_tra').append(asign(formattedImage,'/images/resume/techskill.jpg'));
 			$('#skill_tra').append(asign(HTMLskills,keyname));
 			//$('#TransSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
-			for (skill in jeremy.skills[key].TransferableSkills) {
-				$("#TransSkillText").append(asign(HTMLskillModaltext,jeremy.skills[key].TransferableSkills[skill]));
+			for (skill in jeremy.skills[key].TechSkills) {
+				$("#TechSkillsText").append(asign(HTMLskillModaltext,jeremy.skills[key].TechSkills[skill]));
 			};
 		};
 	});
@@ -318,6 +396,20 @@ for (job in work) {
 	}
 }
 displayWork(jeremy.work);
+
+
+function displyaHighlights(highlights) {
+for (highlight in highlights) {
+	$('#workHighlights').append(HTMLhighlightStart);
+	var formattedProject = HTMLhighlightProject.replace("%data%",jeremy.workHighlights[highlight].project);
+	var formattedPosition = HTMLhighlightTitle.replace("%data%",jeremy.workHighlights[highlight].position);
+	var formattedTitle = formattedProject + formattedPosition;
+	$('.highlight-entry:last').append(formattedTitle);
+	$('.highlight-entry:last').append(asign(HTMLhighlightLocation,jeremy.workHighlights[highlight].location));
+	$('.highlight-entry:last').append(asign(HTMLhighlightSummary,jeremy.workHighlights[highlight].summary));
+	}
+}
+displyaHighlights(jeremy.workHighlights);
 
 function displayStudentPlacement(work) {
 for (job in work) {
@@ -356,13 +448,10 @@ for (job in members) {
 	$('#technicalSociety').append(HTMLmemberStart);
 	var formattedEmp = HTMLmemberEmployer.replace("%data%",jeremy.members[job].organization);
 	var formattedEmphref = formattedEmp.replace("%href%",jeremy.members[job].website);
-	var formattedTitle = HTMLmemberTitle.replace("%data%",jeremy.members[job].position);
-	var formattedDate = HTMLmemberDates.replace("%data%",jeremy.members[job].startDate);
-	var formattedDes = HTMLmemberDescription.replace('%data%',jeremy.members[job].summary)
-	var formattedEmpTitle = formattedEmphref + formattedTitle
-	$('.work-entry:last').append(formattedEmpTitle);
-	$('.work-entry:last').append(formattedDate);
-	$('.work-entry:last').append(formattedDes);
+	$('.work-entry:last').append(formattedEmphref);
+	for (pos in jeremy.members[job].position) {
+		$('.work-entry:last').append(HTMLmemberTitle.replace("%data%",jeremy.members[job].position[pos]));
+	}
 	}
 }
 displayMember(jeremy.members);	
@@ -370,8 +459,9 @@ displayMember(jeremy.members);
 function displayEducation(schools) {
 for (school in schools) {
 	$('#education').append(HTMLschoolStart);
-	var formattedDeg = jeremy.education[school].institution+' , '+jeremy.education[school].studyType+' in '+jeremy.education[school].area;
-	$('.education-entry:last').append(asign(HTMLschoolName,formattedDeg));
+	var formattedInst = HTMLschoolName.replace('%href%',jeremy.education[school].website);
+	var formattedDeg = jeremy.education[school].institution+' '+jeremy.education[school].studyType+' '+jeremy.education[school].area;
+	$('.education-entry:last').append(asign(formattedInst,formattedDeg));
 	//var formattedDeg = jeremy.education[school].studyType+' in '+jeremy.education[school].area
 	//$('.education-entry:last').append(asign(HTMLschoolDegree,formattedDeg));
 	if (jeremy.education[school].group) {
@@ -387,7 +477,7 @@ for (school in schools) {
 		$('.education-entry:last').append(asign(HTMLschoolImage,jeremy.education[school].image));
 		$('.education-entry:last').append(asign(HTMLschoolDescription,jeremy.education[school].description));
 		}
-	$('.education-entry:last').append('<hr>')
+	//$('.education-entry:last').append('<hr>')
 	}
 }
 displayEducation(jeremy.education);	
@@ -415,8 +505,7 @@ function displayCourses(courses) {
 	for (course in courses) {
 	$('#courses').append(HTMLonlineClasses);
 	var formattedTitle = HTMLonlineTitle.replace("%data%",jeremy.courses[course].name);
-	var formattedTitleWeb = formattedTitle.replace("%href%",jeremy.courses[course].website);
-	$('.course-entry:last').append(formattedTitleWeb);
+	$('.course-entry:last').append(formattedTitle);
 	$('.course-entry:last').append(asign(HTMLonlineSchool,jeremy.courses[course].school));
 	$('.course-entry:last').append(asign(HTMLonlineDates,jeremy.courses[course].date));
 	}

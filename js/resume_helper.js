@@ -19,15 +19,15 @@ var HTMLskillModaltext = '<li class="bold">%data%</li>'
 var HTMLskillModalitem = '<li>&nbsp;&nbsp;&nbsp;&nbsp;%data%</li>' 
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="%href%">%data%</a>';
+var HTMLworkEmployer = '<hr><a href="%href%">%data%</a>';
 var HTMLworkTitle = ' - %data%';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p align="justify">%data%</p>';
 
 var HTMLmemberStart = '<div class="work-entry"></div>';
-var HTMLmemberEmployer = '<a href="%href%">%data%</a>';
-var HTMLmemberTitle = ' - %data%';
+var HTMLmemberEmployer = '<hr><a href="%href%">%data%</a>';
+var HTMLmemberTitle = '<div>%data%</div>';
 var HTMLmemberDates = '<div class="date-text">%data%</div>';
 var HTMLmemberLocation = '<div class="location-text">%data%</div>';
 var HTMLmemberDescription = '<p align="justify">%data%</p>';
@@ -50,8 +50,15 @@ var HTMLpatentDocket = '<div>filed as docket %data% in %location%</div>';
 var HTMLpatentImage = '<div class="row"><div class="col-sm-4"><img src="%data%" class="img-responsive patent"></div>';
 var HTMLpatentDescription = '<div class="col-sm-7 summary text-left"><p align="justify class="pad-top"">%data%</p></div></div>';
 
+var HTMLhighlightStart = '<div class="highlight-entry"></div>';
+var HTMLhighlightProject = '<hr><div class="bold">%data% -';
+var HTMLhighlightTitle = '%data%</div>';
+var HTMLhighlightLocation = '<div class="date-text">%data%</div>';
+var HTMLhighlightSummary = '<p align="justify">%data%</p>';
+
+
 var HTMLschoolStart = '<div class="education-entry distance"></div>';
-var HTMLschoolName = '<div class="bold"> %data%';
+var HTMLschoolName = '<hr><a href="%href%">%data%';
 var HTMLschoolDegree = '-- %data%<br>';
 var HTMLschoolGroup = '<a href="%href%">%data%</a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
@@ -62,8 +69,8 @@ var HTMLschoolSummary = '<div class="col-sm-6"><p align="right" class="pad-top">
 var HTMLschoolDescription = '<p align="justify">%data%</p>';
 
 var HTMLonlineClasses = '<div class="course-entry distance"></div>';
-var HTMLonlineTitle = '<a href="%href%">%data%';
-var HTMLonlineSchool = ' - %data%</a>';
+var HTMLonlineTitle = '<hr>%data%';
+var HTMLonlineSchool = '- %data%';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
@@ -94,28 +101,32 @@ function initializeMap() {
 map = new google.maps.Map(document.querySelector('#map'), mapOptions);
 
 function locationFinder() {
-     var locations = [];
+    var locations = [];
 
-     locations.push(julia.basics.location);
+    locations.push(jeremy.basics.location);
 
-     julia.education.forEach(function(school){
-       locations.push(school.location);
-     });
+    jeremy.workHighlights.forEach(function(job){
+      locations.push(job.location);
+    });
 
-    julia.studentPlacement.forEach(function(school){
-       locations.push(school.location);
-     });
+    jeremy.volunteer.forEach(function(position){
+      locations.push(position.location);
+    });
 
-    julia.volunteer.forEach(function(position){
-       locations.push(position.location);
-     });
+    jeremy.education.forEach(function(school){
+      locations.push(school.location);
+    });
 
-     julia.work.forEach(function(job){
-       locations.push(job.location);
-     });
+    jeremy.studentPlacement.forEach(function(school){
+      locations.push(school.location);
+    });
 
-     return locations;
-   }
+    jeremy.work.forEach(function(job){
+      locations.push(job.location);
+    });
+
+    return locations;
+    }
 
 function createMapMarker(placeData) {
     // The next lines save location data from the search result object to local variables
