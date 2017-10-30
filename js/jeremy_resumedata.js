@@ -364,7 +364,7 @@ if(jeremy.skills.length != 0) {
 		if (keyname == "BusinessAcumen") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
 			$('#skill_exp').append(asign(formattedImage,'images/resume/busaskill.jpg'));
-			$('#skill_exp').append(asign(HTMLskills,keyname));
+			$('#skill_exp').append(asign(HTMLskills,'Business Acumen'));
 			//$('#ExpSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
 			for (skill in jeremy.skills[key].BusinessAcumen) {
 				$("#BusinessAcumenText").append(asign(HTMLskillModaltext,jeremy.skills[key].BusinessAcumen[skill]));
@@ -373,7 +373,7 @@ if(jeremy.skills.length != 0) {
 		if (keyname == "TechSkills") {
 			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
 			$('#skill_tra').append(asign(formattedImage,'/images/resume/techskill.jpg'));
-			$('#skill_tra').append(asign(HTMLskills,keyname));
+			$('#skill_tra').append(asign(HTMLskills,'Technical Skills'));
 			//$('#TransSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
 			for (skill in jeremy.skills[key].TechSkills) {
 				$("#TechSkillsText").append(asign(HTMLskillModaltext,jeremy.skills[key].TechSkills[skill]));
