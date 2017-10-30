@@ -7,7 +7,7 @@ var jeremy = {
 		"phone": "+49 163 1378833",
 		"website": "",
 		"summary":"I am a qualified Civil engineer with over 12 years’ experience in geotechnical and tunnel engineering, project management and team leadership.  I am a chartered engineer with Engineers Australia  (CPEng). My main technical background is medium to large infrastructure within Victoria, Australia, as well as some project experience interstate and internationally. I have worked as a geotechnical engineer on a range of infrastructure projects including roads, rail, energy infrastructure, pipelines, tunnels, marine and wharfs, mining, dams and property. His technical experience includes site investigation, slope stability analysis, earth retaining structures, and foundation engineering including settlement analysis, ground improvement, dynamic loading and pile foundations. I also have extensive experience in geotechnical construction phase support including verification and certification, mitigation measures, instrumentation and monitoring and site surveillance.",
-		"location": "Otterfing, Germany",
+		"location": "Münchnerstr.23, 83624 Otterfing, Germany",
 		"linkedin": "https://www.linkedin.com/in/jeremy-barber-523aa69/"
 	},
 
@@ -113,7 +113,7 @@ var jeremy = {
 		"date": "",
 		"summary": "High-level geotechnical advice for difficult birdge foundation conditions."
 	},{
-		"location": "Adelaide, Australia",
+		"location": "Adelaide, South, Australia",
 		"position": "Senior Geotechnical Engineer",
 		"project": "Urban South Road Superway Project",
 		"date": "",
@@ -262,8 +262,8 @@ var jeremy = {
 			"startDate": "2007 and 2008",
 			"organization": "Lynall Hall Breakfast Program",
 			"website": "http://www.lynallhall.vic.edu.au",
-			"summary": "Providing Breakfast before the school day for underprivilege teenagers at Lionel Hall a Secondary School in Richmond",
-			"location": "Melbourne, Australia",
+			"summary": "Providing Breakfast before the school day for underprivilege teenagers at Lionel Hall",
+			"location": "Secondary School in Richmond, Victoria, Australia",
 			"position": "Volunteer"
 		}
 	],
@@ -340,197 +340,31 @@ var jeremy = {
 }
 
 
-function asign(HTML_str,data) {
-	var HTML_new = HTML_str.replace('%data%', data);
-	return HTML_new
-}
 
-$('#header').append(asign(HTMLheaderName,jeremy.basics.name));
-$('#header').append(asign(HTMLheaderRole,jeremy.basics.label));
-$('#header_pic').append(asign(HTMLbioPic, jeremy.basics.picture));
-$('#header').append(asign(HTMLwelcomeMsg, jeremy.basics.summary));
+function locationFinder() {
+    var locations = [];
 
-if(jeremy.skills.length != 0) {
-	Object.keys(jeremy.skills).forEach(function(key, keyIndex) {
-		var keyname = Object.keys(jeremy.skills[key]);
-		if (keyname == "CompSkills") {
-			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_comp').append(asign(formattedImage,'/images/resume/compskill.jpg'));
-			$('#skill_comp').append(asign(HTMLskills,'Software'));
-			for (skill in jeremy.skills[key].CompSkills) {
-				$("#CompSkillsText").append(asign(HTMLskillModaltext,jeremy.skills[key].CompSkills[skill]));
-			};
-		};
-		if (keyname == "BusinessAcumen") {
-			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_exp').append(asign(formattedImage,'images/resume/busaskill.jpg'));
-			$('#skill_exp').append(asign(HTMLskills,keyname));
-			//$('#ExpSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
-			for (skill in jeremy.skills[key].BusinessAcumen) {
-				$("#BusinessAcumenText").append(asign(HTMLskillModaltext,jeremy.skills[key].BusinessAcumen[skill]));
-			};
-		};
-		if (keyname == "TechSkills") {
-			var formattedImage = HTMLskillImage.replace('%modal%',keyname)
-			$('#skill_tra').append(asign(formattedImage,'/images/resume/techskill.jpg'));
-			$('#skill_tra').append(asign(HTMLskills,keyname));
-			//$('#TransSkillText').append(asign(HTMLskillModalimage,jeremy.skillImages[key].image));
-			for (skill in jeremy.skills[key].TechSkills) {
-				$("#TechSkillsText").append(asign(HTMLskillModaltext,jeremy.skills[key].TechSkills[skill]));
-			};
-		};
-	});
-}; 
+    locations.push(jeremy.basics.location);
 
-function displayWork(work) {
-for (job in work) {
-	$('#workExperience').append(HTMLworkStart);
-	var formattedEmp = HTMLworkEmployer.replace("%data%",jeremy.work[job].company);
-	var formattedEmphref = formattedEmp.replace("%href%",jeremy.work[job].website);
-	var formattedTitle = HTMLworkTitle.replace("%data%",jeremy.work[job].position);
-	var formattedDate = jeremy.work[job].startDate+' - '+jeremy.work[job].endDate;
-	var formattedEmpTitle = formattedEmphref + formattedTitle;
-	$('.work-entry:last').append(formattedEmpTitle);
-	$('.work-entry:last').append(asign(HTMLworkDates,formattedDate));
-	$('.work-entry:last').append(asign(HTMLworkDescription,jeremy.work[job].summary));
-	}
-}
-displayWork(jeremy.work);
+    jeremy.workHighlights.forEach(function(job){
+      locations.push(job.location);
+    });
 
+    jeremy.volunteer.forEach(function(position){
+      locations.push(position.location);
+    });
 
-function displyaHighlights(highlights) {
-for (highlight in highlights) {
-	$('#workHighlights').append(HTMLhighlightStart);
-	var formattedProject = HTMLhighlightProject.replace("%data%",jeremy.workHighlights[highlight].project);
-	var formattedPosition = HTMLhighlightTitle.replace("%data%",jeremy.workHighlights[highlight].position);
-	var formattedTitle = formattedProject + formattedPosition;
-	$('.highlight-entry:last').append(formattedTitle);
-	$('.highlight-entry:last').append(asign(HTMLhighlightLocation,jeremy.workHighlights[highlight].location));
-	$('.highlight-entry:last').append(asign(HTMLhighlightSummary,jeremy.workHighlights[highlight].summary));
-	}
-}
-displyaHighlights(jeremy.workHighlights);
+    jeremy.education.forEach(function(school){
+      locations.push(school.location);
+    });
 
-function displayStudentPlacement(work) {
-for (job in work) {
-	$('#studentPlacement').append(HTMLworkStart);
-	var formattedEmp = HTMLworkEmployer.replace("%data%",jeremy.studentPlacement[job].company);
-	var formattedEmphref = formattedEmp.replace("%href%",jeremy.studentPlacement[job].website);
-	var formattedTitle = HTMLworkTitle.replace("%data%",jeremy.studentPlacement[job].position);
-	var formattedDate = jeremy.studentPlacement[job].startDate+' - '+jeremy.studentPlacement[job].endDate;
-	var formattedDes = HTMLworkDescription.replace('%data%', jeremy.studentPlacement[job].summary)
-	var formattedEmpTitle = formattedEmphref + formattedTitle
-	$('.work-entry:last').append(formattedEmpTitle);
-	$('.work-entry:last').append(asign(HTMLworkDates,formattedDate));
-	$('.work-entry:last').append(formattedDes);
-	}
-}
-displayStudentPlacement(jeremy.studentPlacement);
+    jeremy.studentPlacement.forEach(function(school){
+      locations.push(school.location);
+    });
 
-function displayVolunteerWork(work) {
-for (job in work) {
-	$('#volunteerWork').append(HTMLworkStart);
-	var formattedEmp = HTMLworkEmployer.replace("%data%",jeremy.volunteer[job].organization);
-	var formattedEmphref = formattedEmp.replace("%href%",jeremy.volunteer[job].website);
-	var formattedTitle = HTMLworkTitle.replace("%data%",jeremy.volunteer[job].position);
-	var formattedDate = HTMLworkDates.replace("%data%",jeremy.volunteer[job].startDate);
-	var formattedDes = HTMLworkDescription.replace('%data%',jeremy.volunteer[job].summary)
-	var formattedEmpTitle = formattedEmphref + formattedTitle
-	$('.work-entry:last').append(formattedEmpTitle);
-	$('.work-entry:last').append(formattedDate);
-	$('.work-entry:last').append(formattedDes);
-	}
-}
-displayVolunteerWork(jeremy.volunteer);	
+    jeremy.work.forEach(function(job){
+      locations.push(job.location);
+    });
 
-function displayMember(members) {
-for (job in members) {
-	$('#technicalSociety').append(HTMLmemberStart);
-	var formattedEmp = HTMLmemberEmployer.replace("%data%",jeremy.members[job].organization);
-	var formattedEmphref = formattedEmp.replace("%href%",jeremy.members[job].website);
-	$('.work-entry:last').append(formattedEmphref);
-	for (pos in jeremy.members[job].position) {
-		$('.work-entry:last').append(HTMLmemberTitle.replace("%data%",jeremy.members[job].position[pos]));
-	}
-	}
-}
-displayMember(jeremy.members);	
-
-function displayEducation(schools) {
-for (school in schools) {
-	$('#education').append(HTMLschoolStart);
-	var formattedInst = HTMLschoolName.replace('%href%',jeremy.education[school].website);
-	var formattedDeg = jeremy.education[school].institution+' '+jeremy.education[school].studyType+' '+jeremy.education[school].area;
-	$('.education-entry:last').append(asign(formattedInst,formattedDeg));
-	//var formattedDeg = jeremy.education[school].studyType+' in '+jeremy.education[school].area
-	//$('.education-entry:last').append(asign(HTMLschoolDegree,formattedDeg));
-	if (jeremy.education[school].group) {
-		var formattedGroup = HTMLschoolGroup.replace('%href%',jeremy.education[school].website);
-		var formattedSupervisor = jeremy.education[school].group+' - '+jeremy.education[school].supervisor;
-		$('.education-entry:last').append(asign(formattedGroup,formattedSupervisor));
-		}
-	var formattedDate = jeremy.education[school].startDate+' - '+jeremy.education[school].endDate;
-	$('.education-entry:last').append(asign(HTMLschoolDates,formattedDate));
-	//$('.education-entry:last').append(asign(HTMLschoolLocation,jeremy.education[school].location));
-	if (jeremy.education[school].thesisTitle) {
-		$('.education-entry:last').append(asign(HTMLschoolSummary,jeremy.education[school].thesisTitle));
-		$('.education-entry:last').append(asign(HTMLschoolImage,jeremy.education[school].image));
-		$('.education-entry:last').append(asign(HTMLschoolDescription,jeremy.education[school].description));
-		}
-	//$('.education-entry:last').append('<hr>')
-	}
-}
-displayEducation(jeremy.education);	
-
-//populate projects
-function displayPublications(publications) {
-	for (item in publications) {
-	$('#publication').append(HTMLpublicationStart);
-	var formattedTitle = HTMLpublicationTitle.replace("%data%",jeremy.publications[item].title);
-	var formattedTitleWeb = formattedTitle.replace("%href%",jeremy.publications[item].website);
-	var formattedJournal = jeremy.publications[item].journal+" "+jeremy.publications[item].volume+" "+jeremy.publications[item].year;
-	$('.publication-entry:last').append(formattedTitleWeb);
-	$('.publication-entry:last').append(asign(HTMLpublicationAuthors,jeremy.publications[item].authors));
-	$('.publication-entry:last').append(asign(HTMLpublicationJournal,formattedJournal));
-	$('.publication-entry:last').append(asign(HTMLpublicationDescription,jeremy.publications[item].summary));
-	$('.publication-entry:last').append(asign(HTMLpublicationImage,jeremy.publications[item].image));
-
-	}
-}
-displayPublications(jeremy.publications)
-//combine journal and year in one row and get image and text in a nested colum
-
-
-function displayCourses(courses) {
-	for (course in courses) {
-	$('#courses').append(HTMLonlineClasses);
-	var formattedTitle = HTMLonlineTitle.replace("%data%",jeremy.courses[course].name);
-	$('.course-entry:last').append(formattedTitle);
-	$('.course-entry:last').append(asign(HTMLonlineSchool,jeremy.courses[course].school));
-	$('.course-entry:last').append(asign(HTMLonlineDates,jeremy.courses[course].date));
-	}
-}
-displayCourses(jeremy.courses)
-
-if (jeremy.languages.length != 0) {
-	$('#languages').append(HTMLlanguageStart);
-	for (language in jeremy.languages) {
-		var formattedLanguage = HTMLlanguage.replace("%level%",jeremy.languages[language].level);
-		$('#languages').append(asign(formattedLanguage,jeremy.languages[language].name));
-	};
-} 
-
-if (jeremy.interests.length != 0) {
-	$('#interests').append(HTMLinterestsStart);
-	for (interest in jeremy.interests) {
-		$('#interests').append(asign(HTMLinterest,jeremy.interests[interest]));
-	};
-} 
-
-$("#contact").append('<span class="bold"> Email: </span>')
-$("#contact").append(jeremy.basics.email)
-$("#contact").append('<span class="bold">   Phone: </span>')
-$("#contact").append(jeremy.basics.phone)
-$("#contact").append('<span class="bold">   LinkedIn: </span>')
-var formattedlinkedin = HTMLlinkedin.replace("%href%",jeremy.basics.linkedin);
-$("#contact").append(formattedlinkedin);
+    return locations;
+    }

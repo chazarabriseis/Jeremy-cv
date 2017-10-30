@@ -80,12 +80,6 @@ var HTMLlanguage = '<li class="horizontal-list">%data% (%level%)</li><li class="
 var HTMLinterestsStart = '<ul id="interests"></ul>'
 var HTMLinterest = '<li class="horizontal-list">%data%</li><li class="horizontal-list">   </li>';
 
-
-//Make the name in the navbar shrink
-$(window).on("scroll touchmove", function () {
-  $('#name').toggleClass('tiny', $(document).scrollTop() > 0);
-});
-
 //Create a google map that shows all locations
 var map;    // declares a global map variable
 
@@ -98,12 +92,16 @@ function initializeMap() {
    };
 
 
-map = new google.maps.Map(document.querySelector('#map'), mapOptions);
+  map = new google.maps.Map(document.querySelector('#map'), mapOptions);
 
-function locationFinder() {
+  function locationFinder() {
     var locations = [];
 
     locations.push(jeremy.basics.location);
+
+    jeremy.work.forEach(function(job){
+      locations.push(job.location);
+    });
 
     jeremy.workHighlights.forEach(function(job){
       locations.push(job.location);
@@ -121,14 +119,15 @@ function locationFinder() {
       locations.push(school.location);
     });
 
-    jeremy.work.forEach(function(job){
-      locations.push(job.location);
+    //remove all locations that appear twice
+    var unique = locations.filter(function(elem, index, self) {
+    return index == self.indexOf(elem);
     });
 
-    return locations;
+    return unique;
     }
 
-function createMapMarker(placeData) {
+  function createMapMarker(placeData) {
     // The next lines save location data from the search result object to local variables
     var lat = placeData.geometry.location.lat();  // latitude from the place service
     var lon = placeData.geometry.location.lng();  // longitude from the place service
